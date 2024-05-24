@@ -1,0 +1,15 @@
+.intro {
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #2AA7FF; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro p {
+    margin: 0;
+  }
+  
