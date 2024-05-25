@@ -4,6 +4,7 @@ import Intro from '../../components/Intro';
 import LogoSection from '../../components/LogoSection';
 import SpecialisationSection from '../../components/SpecialisationSection';
 import CardContainer from '../../components/CardContainer';
+// import Footer from '../../components/Footer'; 
 
 
 
@@ -14,6 +15,9 @@ function LandingPage() {
       <LogoSection />
       <SpecialisationSection /> 
       <CardContainer />
+
+
+      {/* <Footer /> */}
     </div>
   );
 }

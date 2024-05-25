@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    width: 800px; 
+    width: 1440px; 
     height: 300px; 
   }
   
@@ -13,17 +13,14 @@
   }
   
   .card1 {
-    /* left: 108px;  */
-    left: -250px;
+    left: 108px; 
   }
   
   .card2 {
-    /* left: 536.3px;  */
-    left: 230px;
+    left: 536.3px; 
   }
 
   .card3 {
-    /* left: 964.6px; */
-    left: 700px;
+    left: 964.6px;
   }
   
