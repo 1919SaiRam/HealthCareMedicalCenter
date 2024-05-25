@@ -19,6 +19,14 @@ function LogoSection() {
         </nav>
         <button className={styles.myBookings}>My Bookings</button>
       </div>
+      <div className={styles.textInfo}>
+        <h2>Skip the travel! Find Online<br />
+          <span className={styles.medical}>Medical</span>  
+          <span className={styles.centers}>Centers</span>
+        </h2>
+        <p>Connect instantly with a 24x7 specialist or choose to<br />video visit a particular doctor.</p>
+      </div>
+      <button className={styles.findCenters}>Find Centers</button>
     </div>
   );
 }

@@ -1,6 +1,6 @@
-/* src/components/LogoSection.module.css */
+/* src/components/LogoSection.module.css
 
-.logoSectionWrapper {
+/* .logoSectionWrapper {
     width : 1440px ; 
     height: 832px; 
     background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);;
@@ -52,3 +52,142 @@
     cursor: pointer;
   }
   
+  .text-info {
+    width: 663px;
+    height: 207px;
+    top: 180px;
+    left: 135px;
+  }
+ */
+
+
+/* src/components/LogoSection.module.css */
+
+/* src/components/LogoSection.module.css */
+
+/* src/components/LogoSection.module.css */
+
+.logoSectionWrapper {
+  width: 1440px;
+  height: 832px; 
+  background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+  position: relative;
+}
+
+.logoSection {
+  width: 100%;
+  max-width: 1440px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation {
+  position: absolute;
+  left: 393px;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  font-size: 18px;
+}
+
+.myBookings {
+  height: 48px;
+  padding: 0 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.textInfo {
+  position: absolute;
+  top: 180px;
+  left: 135px;
+  width: 663px;
+  height: 207px;
+}
+
+.textInfo h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 68px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #102851;
+  margin: 0;
+}
+
+.textInfo p {
+  width: 570px;
+  height: 64px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #5C6169;
+  margin: 0;
+}
+
+.textInfo .medical {
+  font-family: 'Poppins', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+  margin-right: 5px; /* Add margin to create a gap */
+}
+
+.textInfo .centers {
+  font-family: 'Poppins', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2AA7FF;
+}
+
+
+.findCenters {
+  position: absolute;
+  width: 177px;
+  height: 48px;
+  top: 419px;
+  left: 137px;
+  padding: 12px 36px;
+  gap: 10px;
+  border-radius: 8px ;
+  background-color: #2AA8FF;
+  color: white;
+  border: none;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
