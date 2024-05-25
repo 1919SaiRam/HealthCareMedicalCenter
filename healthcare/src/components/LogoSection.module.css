@@ -199,3 +199,19 @@
   top: 151px;
   left: 723px;
 }
+
+.container {
+  width: 1170px;
+  height: 429px;
+  position: absolute;
+  top: 530px;
+  left: 135px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.content {
+  /* Styles for the content inside the container */
+}
+

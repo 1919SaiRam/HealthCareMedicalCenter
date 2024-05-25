@@ -30,6 +30,14 @@ function LogoSection() {
       </div>
       <button className={styles.findCenters}>Find Centers</button>
       <img src= {NicePngImage } alt="Nice PNG" className={styles.nicePngImage} />
+      
+      <div className={styles.container}>
+        <div className={styles.content}>
+          {/* Your existing content here */}
+        </div>
+      </div>
+
+
     </div>
   );
 }
