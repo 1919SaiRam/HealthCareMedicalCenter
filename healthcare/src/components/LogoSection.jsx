@@ -4,6 +4,15 @@ import logo from '../assets/logo.png';
 import NicePngImage from '../assets/NicePng.png';
 import SearchSection from './SearchSection';
 
+// Define an array of image paths and corresponding alt texts
+const images = [
+  { path: require('../assets/doctors.png'), alt: 'Doctors' },
+  { path: require('../assets/labs.png'), alt: 'Labs' },
+  { path: require('../assets/hospitals.png'), alt: 'Hospitals' },
+  { path: require('../assets/medical.png'), alt: 'Medical' },
+  { path: require('../assets/ambulance.png'), alt: 'Ambulance' }
+];
+
 function LogoSection() {
   return (
     <div className={styles.logoSectionWrapper}>
@@ -29,17 +38,20 @@ function LogoSection() {
         <p>Connect instantly with a 24x7 specialist or choose to<br />video visit a particular doctor.</p>
       </div>
       <button className={styles.findCenters}>Find Centers</button>
-      <img src= {NicePngImage } alt="Nice PNG" className={styles.nicePngImage} />
+      <img src={NicePngImage} alt="Nice illustration" className={styles.nicePngImage} />
       
       <div className={styles.container}>
         <SearchSection />
-        <div className= {styles.content}>
+        <div className={styles.content}>
           <h3>You may be looking for</h3>
+          <div className={styles.imageContainer}>
+            {/* Map over the array of image paths and render each image */}
+            {images.map((image, index) => (
+              <img key={index} src={image.path} alt={image.alt} className={styles.image} />
+            ))}
+          </div>
         </div>
-
       </div>
-
-      
     </div>
   );
 }

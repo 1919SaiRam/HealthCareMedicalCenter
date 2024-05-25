@@ -91,7 +91,7 @@
   letter-spacing: 0.02em;
   text-align: left;
   color: #000000;
-  margin-right: 5px; /* Add margin to create a gap */
+  margin-right: 15px; /* Add margin to create a gap */
 }
 
 .textInfo .centers {
@@ -140,16 +140,15 @@
   border-radius: 15px;
   background-color: #FFFFFF;
   color: #FFFFFF;
+  box-shadow: 6px 6px 35px 0px #1028511C; /* Add the box shadow */
 }
 
 .content h3 {
 width: 240px;
 height: 30px;
 position: absolute;
-/* top: 697px; */
 top:100px ;
 left: 429px ;
-/* left: 600px; */
 font-family: Poppins;
 font-size: 20px;
 font-weight: 500;
@@ -160,3 +159,20 @@ color: #102851;
 
 }
 
+
+
+.imageContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 150px;
+}
+
+.image {
+  width: 208px;
+  height: 153px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #FAFBFE;
+}

@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    width: 800px; 
+    height: 300px; 
+  }
+  
+  .card {
+    width: 398.3px;
+    height: 199.15px;
+    border-radius: 20px;
+    position: absolute;
+    /* top: 1035px;  */
+  }
+  
+  .card1 {
+    /* left: 108px;  */
+    left: -250px;
+  }
+  
+  .card2 {
+    /* left: 536.3px;  */
+    left: 230px;
+  }
+
+  .card3 {
+    /* left: 964.6px; */
+    left: 700px;
+  }
+  
