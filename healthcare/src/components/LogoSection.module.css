@@ -191,3 +191,11 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+.nicePngImage {
+  width: 585px;
+  height: 481px;
+  position: absolute;
+  top: 151px;
+  left: 723px;
+}

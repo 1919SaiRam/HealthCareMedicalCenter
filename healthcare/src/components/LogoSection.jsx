@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './LogoSection.module.css';
 import logo from '../assets/logo.png'; 
+import NicePngImage from '../assets/NicePng.png';
+
 
 function LogoSection() {
   return (
@@ -27,6 +29,7 @@ function LogoSection() {
         <p>Connect instantly with a 24x7 specialist or choose to<br />video visit a particular doctor.</p>
       </div>
       <button className={styles.findCenters}>Find Centers</button>
+      <img src= {NicePngImage } alt="Nice PNG" className={styles.nicePngImage} />
     </div>
   );
 }
