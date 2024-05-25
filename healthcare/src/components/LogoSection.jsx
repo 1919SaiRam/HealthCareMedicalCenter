@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './LogoSection.module.css';
 import logo from '../assets/logo.png'; 
 import NicePngImage from '../assets/NicePng.png';
-
+import SearchSection from './SearchSection';
 
 function LogoSection() {
   return (
@@ -32,12 +32,14 @@ function LogoSection() {
       <img src= {NicePngImage } alt="Nice PNG" className={styles.nicePngImage} />
       
       <div className={styles.container}>
-        <div className={styles.content}>
-          {/* Your existing content here */}
+        <SearchSection />
+        <div className= {styles.content}>
+          <h3>You may be looking for</h3>
         </div>
+
       </div>
 
-
+      
     </div>
   );
 }

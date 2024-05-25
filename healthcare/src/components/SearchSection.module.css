@@ -1,0 +1,34 @@
+.searchSection {
+    position: relative;
+  }
+  
+  .dropdownContainerstate {
+    width: 285px;
+    height: 50px;
+    border-radius: 8px;
+    left: 339px;
+    border: 1px solid #F0F0F0;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .dropdownContainercity {
+    width: 285px;
+    height: 50px;
+    border-radius: 8px;
+    left: 744px;
+    border: 1px solid #F0F0F0;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .searchButton {
+    width: 121px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
