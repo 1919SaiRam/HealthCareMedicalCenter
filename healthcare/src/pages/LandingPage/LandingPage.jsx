@@ -17,8 +17,6 @@ function LandingPage() {
       <SpecialisationSection /> 
       <CardContainer />
       <MedicalSpecialist />
-      
-      
       <FreqQuestion />
       <HealthMobileapp />
       <HealthFooter />
