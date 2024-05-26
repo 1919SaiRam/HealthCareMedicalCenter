@@ -1,136 +1,6 @@
-/* .logoSectionWrapper {
-    width: 1440px;
-    height: 236px;    
-    position: relative;
-  }
-
-
-
- .intro {
-    width: 100%;
-    max-width: 1440px;
-    padding: 20px;
-    box-sizing: border-box;
-    background: #2AA7FF; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .intro p {
-    margin: 0;
-  }
-  
-  
-.logoSection {
-    width: 100%;
-    max-width: 1440px;
-    height: 96px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    box-sizing: border-box;
-    background-color: #FFFFFF;
-    position: relative;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .navigation {
-    position: absolute;
-    left: 393px;
-  }
-  
-  .navigation ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .navigation li {
-    font-size: 18px;
-  }
-  
-  .myBookings {
-    height: 48px;
-    padding: 0 20px;
-    font-size: 18px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-
-   .backbox {
-     width: 1440px;
-     height: 100px;
-     top: 124px;
-     gap: 0px;
-     border-radius: 0px 0px 16px 16px;
-     background: linear-gradient(91.75deg, #2AA7FF 1.4%, #0C8CE6 100.57%);
-    }
-
-
-    .searchBox {
-        width: 1166px;
-        height: 111px;
-        padding: 27px 24px;
-        gap: 29px;
-        border-radius: 15px;
-        background: #FFFFFF;
-        box-shadow: 6px 6px 35px 0px #1028511C;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: absolute;
-        top: 179px;
-        left: 135px;
-      }
-      
-      .smallrect1, .smallrect2 {
-        height: 50px;
-        border-radius: 8px;
-        background: #FAFBFE;
-        border: 1px solid #F0F0F0;
-        padding: 0 10px;
-      }
-      
-      .smallrect1 {
-        width: 326px;
-      }
-      
-      .smallrect2 {
-        width: 522px;
-      }
-      
-      .searchButton {
-        width: 231px;
-        height: 50px;
-        border-radius: 8px;
-        background: #2AA8FF;
-        color: white;
-        border: none;
-        padding: 12px 52px;
-        cursor: pointer;
-      }  */
-
-
-
-
-
-
-
-      .logoSectionWrapper {
+       .logoSectionWrapper {
         width: 1440px;
-        height: 236px;    
+        height: 236px;
         position: relative;
       }
       
@@ -139,7 +9,7 @@
         max-width: 1440px;
         padding: 20px;
         box-sizing: border-box;
-        background: #2AA7FF; 
+        background: #2AA7FF;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -194,6 +64,18 @@
         border-radius: 8px;
         cursor: pointer;
       }
+
+
+      .sensodyneImage {
+        width: 363px;
+        height: 268px;
+        top: 481px;
+        left: 968px;
+        border-radius: 18px;
+        position: absolute;
+    }
+    
+
       
       .backbox {
         width: 1440px;
@@ -223,12 +105,8 @@
       .smallrect1, .smallrect2 {
         height: 50px;
         border-radius: 8px;
-        background: #FAFBFE;
         border: 1px solid #F0F0F0;
-        padding: 0 10px;
-      }
-      
-      .smallrect1 {
+        background: #FAFBFE;
         width: 326px;
       }
       
@@ -239,26 +117,72 @@
       .searchButton {
         width: 231px;
         height: 50px;
+        padding: 12px 52px;
+        gap: 10px;
         border-radius: 8px;
         background: #2AA8FF;
-        color: white;
+        color: #FFFFFF;
         border: none;
-        padding: 12px 52px;
         cursor: pointer;
       }
       
-      .results {
-        margin-top: 20px;
+      .medicalCentersInfo {
+        width: 643px;
+        height: 64px;
+        top: 352px;
+        left: 129px;
+        position: absolute;
+      }
+      
+      .medicalCentersCountContainer {
+        width: 500.11px;
+        height: 36px;
+        left: 129px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+      }
+      
+      .medicalCentersCountContainer p {
+        width: 598.62px;
+        height: 24px;
+        /* top: 20px; */
+        left: 173.38px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #787887;
+      }
+      
+      .resultsContainer {
+        width: 786px;
+        height: 1900px;
+        top: 480px;
+        left: 130px;
         padding: 20px;
+        position: absolute;
+        background: #FFFFFF;
+        border-radius: 15px;
+        box-shadow: 6px 6px 35px 0px #1028511C;
+        overflow-y: auto;
       }
       
-      .results ul {
-        list-style: none;
-        padding: 0;
+      .medicalCenter {
+        width: 786px;
+        height: 269px;
+        padding: 0px 0.44px 0.62px 0px;
+        border: 0px 0px 1px 0px;
+        color: #FFFFFF;
+        background-color: #2AA8FF;
+        border-radius: 8px;
       }
       
-      .results li {
-        margin-bottom: 10px;
-        font-size: 18px;
+      .medicalCenter h3 {
+        font-size: 24px;
+        margin: 10
       }
-      
