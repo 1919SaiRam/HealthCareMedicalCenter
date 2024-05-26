@@ -4,9 +4,9 @@ import Intro from '../../components/Intro';
 import LogoSection from '../../components/LogoSection';
 import SpecialisationSection from '../../components/SpecialisationSection';
 import CardContainer from '../../components/CardContainer';
-// import Footer from '../../components/Footer'; 
-
-
+import MedicalSpecialist from '../../components/MedicalSpecialist';
+import HealthMobileapp from '../../components/HealthMobileapp' ;
+import HealthFooter from '../../components/HealthFooter'; 
 
 function LandingPage() {
   return (
@@ -15,9 +15,11 @@ function LandingPage() {
       <LogoSection />
       <SpecialisationSection /> 
       <CardContainer />
+      <MedicalSpecialist />
+      
 
-
-      {/* <Footer /> */}
+      <HealthMobileapp />
+      <HealthFooter />
     </div>
   );
 }
