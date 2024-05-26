@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './SearchResultsPage.module.css';
-import Intro from '../../components/Intro';
+import Intro2 from '../../components/Intro2';
 import FreqQuestion  from '../../components/FreqQuestion';
 import HealthMobileapp from '../../components/HealthMobileapp' ; 
 import HealthFooter from '../../components/HealthFooter'; 
@@ -9,7 +9,7 @@ import HealthFooter from '../../components/HealthFooter';
 function SearchResultsPage() {
     return (
       <div className={styles.SearchResultsPage}>
-        <Intro />
+        <Intro2 />
         
 
 
