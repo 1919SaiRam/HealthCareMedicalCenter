@@ -5,6 +5,7 @@ import LogoSection from '../../components/LogoSection';
 import SpecialisationSection from '../../components/SpecialisationSection';
 import CardContainer from '../../components/CardContainer';
 import MedicalSpecialist from '../../components/MedicalSpecialist';
+import FreqQuestion  from '../../components/FreqQuestion';
 import HealthMobileapp from '../../components/HealthMobileapp' ;
 import HealthFooter from '../../components/HealthFooter'; 
 
@@ -17,7 +18,8 @@ function LandingPage() {
       <CardContainer />
       <MedicalSpecialist />
       
-
+      
+      <FreqQuestion />
       <HealthMobileapp />
       <HealthFooter />
     </div>

@@ -1,0 +1,13 @@
+.question {
+    width: 100%;
+    max-width: 1440px;
+    height: 708.84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 2485px;
+    /* left: 153px ;  */
+} ;
+
+

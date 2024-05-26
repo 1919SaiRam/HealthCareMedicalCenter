@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './SearchResultsPage.module.css';
 import Intro from '../../components/Intro';
+import FreqQuestion  from '../../components/FreqQuestion';
 import HealthMobileapp from '../../components/HealthMobileapp' ; 
 import HealthFooter from '../../components/HealthFooter'; 
 
@@ -20,7 +21,7 @@ function SearchResultsPage() {
             </div>
             
 
-
+        <FreqQuestion />
         <HealthMobileapp />
         <HealthFooter />
       </div>

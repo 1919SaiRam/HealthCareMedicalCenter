@@ -5,9 +5,9 @@ import Mobile  from '../assets/mobile.png';
 function HealthMobileapp() {
   return (
     <div className={styles.mobiles}>
-      <div className={styles.MobileContent}>
+      {/* <div className={styles.MobileContent}> */}
         <img src={Mobile} alt="Mobile App" className={styles.Mobile} />
-        </div>
+        {/* </div> */}
     </div>
   );
 }
