@@ -1,12 +1,12 @@
 .LandingPage {
     text-align: center;
-    /* width: 100%;
-    max-width: 1440px; */
+    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
     border: 5px solid #bbb;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    /* height: 6639px;  */
+    height: 6639px; 
 }
